@@ -137,3 +137,4 @@ AUTHENTICATION_BACKENDS = [
 ]
 
 AUTH_USER_MODEL= 'posts.User' #it defines to djang that this our custom user model for django all auth
+LOGIN_REDIRECT_URL ='/'
